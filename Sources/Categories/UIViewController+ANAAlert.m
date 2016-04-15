@@ -10,21 +10,18 @@
 
 @implementation UIViewController (ANAAlert)
 
-- (void)showAlertWithTitle:(NSString *)title message:(NSString *)message handler:(void (^)(UIAlertAction *action))handler {
-        UIAlertController *alertController = [UIAlertController
-                                   alertControllerWithTitle:title
-                                   message:message
-                                   preferredStyle:UIAlertControllerStyleAlert];
-        
-        UIAlertAction* ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                   handler:^(UIAlertAction * action){
-                                                       if(handler){
-                                                           handler(action);
-                                                       }
-                                                   }];
-    
-        [alertController addAction:ok];
-        [self presentViewController:alertController animated:YES completion:nil];
+- (void)showAlertWithTitle:(NSString *)title
+                   message:(NSString *)message
+                   handler:(ANAAlertActionHandler)handler
+{
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
+                                                                             message:message
+                                                                      preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction* action = [UIAlertAction actionWithTitle:@"OK"
+                                                     style:UIAlertActionStyleDefault
+                                                   handler:handler];
+    [alertController addAction:action];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 @end

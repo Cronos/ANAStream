@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ANAAlertActionHandler)(UIAlertAction *action);
+
 @interface UIViewController (ANAAlert)
 
-- (void)showAlertWithTitle:(NSString *)title message:(NSString *)message handler:(void (^)(UIAlertAction *action))handler;
+- (void)showAlertWithTitle:(NSString *)title
+                   message:(NSString *)message
+                   handler:(ANAAlertActionHandler)handler;
 
 @end
