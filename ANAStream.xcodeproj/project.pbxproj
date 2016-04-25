@@ -22,6 +22,26 @@
 		E38513561C6E04E200DD5CA1 /* AVCaptureMultipeerVideoDataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = E38513551C6E04E200DD5CA1 /* AVCaptureMultipeerVideoDataOutput.m */; };
 		E385135A1C6E080700DD5CA1 /* UIViewController+ANAAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E38513591C6E080700DD5CA1 /* UIViewController+ANAAlert.m */; };
 		E385135D1C6E1A0500DD5CA1 /* ANAPeersController.m in Sources */ = {isa = PBXBuildFile; fileRef = E385135C1C6E1A0500DD5CA1 /* ANAPeersController.m */; };
+		E3A4E11A1CC61C51009BFB2D /* AVCaptureMultipeerVideoDataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = E38513551C6E04E200DD5CA1 /* AVCaptureMultipeerVideoDataOutput.m */; };
+		E3A4E11B1CC61C51009BFB2D /* ANAStreamController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38513511C6E04A400DD5CA1 /* ANAStreamController.m */; };
+		E3A4E11C1CC61C51009BFB2D /* UITableView+ANAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3583B901C6E242A002CC111 /* UITableView+ANAExtensions.m */; };
+		E3A4E11D1CC61C51009BFB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E38513341C6E007900DD5CA1 /* main.m */; };
+		E3A4E11E1CC61C51009BFB2D /* ANAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E385134D1C6E00E700DD5CA1 /* ANAMainViewController.m */; };
+		E3A4E11F1CC61C51009BFB2D /* UIViewController+ANAAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E38513591C6E080700DD5CA1 /* UIViewController+ANAAlert.m */; };
+		E3A4E1201CC61C51009BFB2D /* ANAViewStreamController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3583B931C6E2758002CC111 /* ANAViewStreamController.m */; };
+		E3A4E1211CC61C51009BFB2D /* ANAPeersController.m in Sources */ = {isa = PBXBuildFile; fileRef = E385135C1C6E1A0500DD5CA1 /* ANAPeersController.m */; };
+		E3A4E1221CC61C51009BFB2D /* ANAPeerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F01851C6E2D3C005A3629 /* ANAPeerPlayer.m */; };
+		E3A4E1231CC61C51009BFB2D /* ANAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38513321C6E007900DD5CA1 /* ANAAppDelegate.m */; };
+		E3A4E1251CC61C51009BFB2D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A4E1161CC6174D009BFB2D /* ImageIO.framework */; };
+		E3A4E1261CC61C51009BFB2D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A4E1141CC61737009BFB2D /* MobileCoreServices.framework */; };
+		E3A4E1271CC61C51009BFB2D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A4E10F1CC60F67009BFB2D /* FBSDKShareKit.framework */; };
+		E3A4E1281CC61C51009BFB2D /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A4E10C1CC60F67009BFB2D /* FBNotifications.framework */; };
+		E3A4E1291CC61C51009BFB2D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A4E10D1CC60F67009BFB2D /* FBSDKCoreKit.framework */; };
+		E3A4E12A1CC61C51009BFB2D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A4E10E1CC60F67009BFB2D /* FBSDKLoginKit.framework */; };
+		E3A4E12C1CC61C51009BFB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E385133A1C6E008500DD5CA1 /* LaunchScreen.storyboard */; };
+		E3A4E12D1CC61C51009BFB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38513391C6E008500DD5CA1 /* Assets.xcassets */; };
+		E3A4E12E1CC61C51009BFB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E385133C1C6E008500DD5CA1 /* Main.storyboard */; };
+		E3A4E1371CC61D2F009BFB2D /* ANAFacebookDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3A4E1351CC61D27009BFB2D /* ANAFacebookDemo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +92,14 @@
 		E38513591C6E080700DD5CA1 /* UIViewController+ANAAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ANAAlert.m"; sourceTree = "<group>"; };
 		E385135B1C6E1A0500DD5CA1 /* ANAPeersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAPeersController.h; sourceTree = "<group>"; };
 		E385135C1C6E1A0500DD5CA1 /* ANAPeersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAPeersController.m; sourceTree = "<group>"; };
+		E3A4E10C1CC60F67009BFB2D /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		E3A4E10D1CC60F67009BFB2D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E3A4E10E1CC60F67009BFB2D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E3A4E10F1CC60F67009BFB2D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E3A4E1141CC61737009BFB2D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E3A4E1161CC6174D009BFB2D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E3A4E1321CC61C51009BFB2D /* ANAFacebookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANAFacebookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A4E1351CC61D27009BFB2D /* ANAFacebookDemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ANAFacebookDemo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,14 +124,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3A4E1241CC61C51009BFB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A4E1251CC61C51009BFB2D /* ImageIO.framework in Frameworks */,
+				E3A4E1261CC61C51009BFB2D /* MobileCoreServices.framework in Frameworks */,
+				E3A4E1271CC61C51009BFB2D /* FBSDKShareKit.framework in Frameworks */,
+				E3A4E1281CC61C51009BFB2D /* FBNotifications.framework in Frameworks */,
+				E3A4E1291CC61C51009BFB2D /* FBSDKCoreKit.framework in Frameworks */,
+				E3A4E12A1CC61C51009BFB2D /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E38512E71C6DFF8D00DD5CA1 = {
 			isa = PBXGroup;
 			children = (
+				E3A4E1341CC61D27009BFB2D /* ANAFacebookDemo */,
 				E38513301C6E007900DD5CA1 /* ANAStream */,
 				E38513381C6E008500DD5CA1 /* Resourses */,
+				E39DCB7C1CC4ED7A00EBAE7A /* Lib */,
 				E385133E1C6E008500DD5CA1 /* Sources */,
 				E385130C1C6DFF8E00DD5CA1 /* ANAStreamTests */,
 				E38513171C6DFF8E00DD5CA1 /* ANAStreamUITests */,
@@ -117,6 +160,7 @@
 				E38512F01C6DFF8D00DD5CA1 /* ANAStream.app */,
 				E38513091C6DFF8E00DD5CA1 /* ANAStreamTests.xctest */,
 				E38513141C6DFF8E00DD5CA1 /* ANAStreamUITests.xctest */,
+				E3A4E1321CC61C51009BFB2D /* ANAFacebookDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,6 +283,35 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		E39DCB7C1CC4ED7A00EBAE7A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E3A4E1141CC61737009BFB2D /* MobileCoreServices.framework */,
+				E3A4E1161CC6174D009BFB2D /* ImageIO.framework */,
+				E3A4E10B1CC60F67009BFB2D /* FacebookSDK */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		E3A4E10B1CC60F67009BFB2D /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E3A4E10C1CC60F67009BFB2D /* FBNotifications.framework */,
+				E3A4E10D1CC60F67009BFB2D /* FBSDKCoreKit.framework */,
+				E3A4E10E1CC60F67009BFB2D /* FBSDKLoginKit.framework */,
+				E3A4E10F1CC60F67009BFB2D /* FBSDKShareKit.framework */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		E3A4E1341CC61D27009BFB2D /* ANAFacebookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E3A4E1351CC61D27009BFB2D /* ANAFacebookDemo.plist */,
+			);
+			path = ANAFacebookDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +368,23 @@
 			productReference = E38513141C6DFF8E00DD5CA1 /* ANAStreamUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E3A4E1181CC61C51009BFB2D /* ANAFacebookDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A4E12F1CC61C51009BFB2D /* Build configuration list for PBXNativeTarget "ANAFacebookDemo" */;
+			buildPhases = (
+				E3A4E1191CC61C51009BFB2D /* Sources */,
+				E3A4E1241CC61C51009BFB2D /* Frameworks */,
+				E3A4E12B1CC61C51009BFB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANAFacebookDemo;
+			productName = ANAStream;
+			productReference = E3A4E1321CC61C51009BFB2D /* ANAFacebookDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -316,6 +406,17 @@
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = E38512EF1C6DFF8D00DD5CA1;
 					};
+					E3A4E1181CC61C51009BFB2D = {
+						DevelopmentTeam = WKY2745G4T;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = E38512EB1C6DFF8D00DD5CA1 /* Build configuration list for PBXProject "ANAStream" */;
@@ -332,6 +433,7 @@
 			projectRoot = "";
 			targets = (
 				E38512EF1C6DFF8D00DD5CA1 /* ANAStream */,
+				E3A4E1181CC61C51009BFB2D /* ANAFacebookDemo */,
 				E38513081C6DFF8E00DD5CA1 /* ANAStreamTests */,
 				E38513131C6DFF8E00DD5CA1 /* ANAStreamUITests */,
 			);
@@ -360,6 +462,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A4E12B1CC61C51009BFB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A4E12C1CC61C51009BFB2D /* LaunchScreen.storyboard in Resources */,
+				E3A4E12D1CC61C51009BFB2D /* Assets.xcassets in Resources */,
+				E3A4E12E1CC61C51009BFB2D /* Main.storyboard in Resources */,
+				E3A4E1371CC61D2F009BFB2D /* ANAFacebookDemo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +509,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38513191C6DFF8E00DD5CA1 /* ANAStreamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A4E1191CC61C51009BFB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A4E11A1CC61C51009BFB2D /* AVCaptureMultipeerVideoDataOutput.m in Sources */,
+				E3A4E11B1CC61C51009BFB2D /* ANAStreamController.m in Sources */,
+				E3A4E11C1CC61C51009BFB2D /* UITableView+ANAExtensions.m in Sources */,
+				E3A4E11D1CC61C51009BFB2D /* main.m in Sources */,
+				E3A4E11E1CC61C51009BFB2D /* ANAMainViewController.m in Sources */,
+				E3A4E11F1CC61C51009BFB2D /* UIViewController+ANAAlert.m in Sources */,
+				E3A4E1201CC61C51009BFB2D /* ANAViewStreamController.m in Sources */,
+				E3A4E1211CC61C51009BFB2D /* ANAPeersController.m in Sources */,
+				E3A4E1221CC61C51009BFB2D /* ANAPeerPlayer.m in Sources */,
+				E3A4E1231CC61C51009BFB2D /* ANAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +650,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib/FacebookSDK",
+				);
 				INFOPLIST_FILE = ANAStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -532,6 +666,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib/FacebookSDK",
+				);
 				INFOPLIST_FILE = ANAStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -588,6 +726,44 @@
 			};
 			name = Release;
 		};
+		E3A4E1301CC61C51009BFB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib/FacebookSDK",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ANAFacebookDemo/ANAFacebookDemo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anadea.VVVFacebookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E3A4E1311CC61C51009BFB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib/FacebookSDK",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ANAFacebookDemo/ANAFacebookDemo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anadea.VVVFacebookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -623,6 +799,15 @@
 			buildConfigurations = (
 				E38513241C6DFF8E00DD5CA1 /* Debug */,
 				E38513251C6DFF8E00DD5CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A4E12F1CC61C51009BFB2D /* Build configuration list for PBXNativeTarget "ANAFacebookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A4E1301CC61C51009BFB2D /* Debug */,
+				E3A4E1311CC61C51009BFB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
